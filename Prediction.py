@@ -3,8 +3,8 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 def load_data(meteorite_file, weather_file):
-    meteorite_data = pd.read_csv(r'C:\Users\keyus\OneDrive\Desktop\Predict-meteor-showers\meteorite-landings-with-dates.csv')
-    weather_data = pd.read_csv(r'C:\Users\keyus\OneDrive\Desktop\Predict-meteor-showers\weather-with-dates.csv')
+    meteorite_data = pd.read_csv(r'Path of meteor_data.csv ')
+    weather_data = pd.read_csv(r'Path of weather_data.csv')
     return meteorite_data, weather_data
 
 def merge_datasets(meteorite_data, weather_data):
